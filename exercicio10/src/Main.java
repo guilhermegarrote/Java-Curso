@@ -5,23 +5,15 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Escolha um número:");
+        System.out.print("Digite o número: ");
+        int n1 = sc.nextInt();
 
-        int escolhido = sc.nextInt();
-        int end = 1;
-        int contador = 0;
-        int i = 1;
-
-        while (escolhido != 20) {
-            System.out.print("\n" + escolhido + ": ");
-            contador = escolhido;
-            while (contador != i) {
-                end += (end * contador);
-                i++;
+        for (int n2 = 1; n1 >= n2; n2++){
+            if (n1 % n2 == 0) {
+                System.out.println(n2);
             }
-            System.out.print(end);
-            escolhido++;
         }
+
         sc.close();
     }
 }
