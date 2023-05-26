@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Curso-de-java.iml" filepath="$PROJECT_DIR$/.idea/Curso-de-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FazerLista/FazerLista.iml" filepath="$PROJECT_DIR$/FazerLista/FazerLista.iml" />
       <module fileurl="file://$PROJECT_DIR$/Notas/Notas.iml" filepath="$PROJECT_DIR$/Notas/Notas.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula24/aula24.iml" filepath="$PROJECT_DIR$/aula24/aula24.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula25/aula25.iml" filepath="$PROJECT_DIR$/aula25/aula25.iml" />
@@ -14,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/aula44/aula44.iml" filepath="$PROJECT_DIR$/aula44/aula44.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula49/aula49.iml" filepath="$PROJECT_DIR$/aula49/aula49.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula54/aula54.iml" filepath="$PROJECT_DIR$/aula54/aula54.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula57/aula57.iml" filepath="$PROJECT_DIR$/aula57/aula57.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula58/aula58.iml" filepath="$PROJECT_DIR$/aula58/aula58.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso_programacao/curso_programacao.iml" filepath="$PROJECT_DIR$/curso_programacao/curso_programacao.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio1/exercicio1.iml" filepath="$PROJECT_DIR$/exercicio1/exercicio1.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio10/exercicio10.iml" filepath="$PROJECT_DIR$/exercicio10/exercicio10.iml" />
