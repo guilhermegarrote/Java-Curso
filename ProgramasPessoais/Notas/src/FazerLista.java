@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.function.DoubleToIntFunction;
 
 public class FazerLista {
     public void fazerlista() {
@@ -31,7 +32,15 @@ public class FazerLista {
 
         for (int i = 0; i != 41; i++) {
             String posicao = Integer.toString(i + 1);
+
+            if (posicao.length() < 2) {
+                posicao = "0".repeat(2 - posicao.length()) + posicao;
+            }
+
             String nome = nomes[i];
+
+            nome = nome + " ".repeat(40 - nome.length());
+
             String rm = rms[i];
 
 
@@ -96,23 +105,71 @@ public class FazerLista {
 
 
             String resultado = resultados[i];
-            String auladada = aulasdadas[i];
-            String falta = faltas[i];
-            String frequencia = frequencias[i];
 
-            if (posicao.length() < 2) {
-                posicao = "0".repeat(2 - posicao.length()) + posicao;
+            if (resultado.length() < 21) {
+                double espacofaltando = (21 - resultado.length());
+                if (espacofaltando % 2 != 0){
+                    int espacodireita = (int)((espacofaltando / 2) + 1);
+                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
+                    resultado = " ".repeat(espacofaltandoesquerda) + resultado + " ".repeat(espacodireita);
+                } else {
+                    int espaco = (int)(espacofaltando / 2);
+                    resultado = " ".repeat(espaco) + resultado + " ".repeat(espaco);
+                }
+
             }
 
-            nome = nome + " ".repeat(40 - nome.length());
+            String auladada = aulasdadas[i];
+
+            if (auladada.length() < 5) {
+                double espacofaltando = (5 - auladada.length());
+                if (espacofaltando % 2 != 0){
+                    int espacodireita = (int)((espacofaltando / 2) + 1);
+                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
+                    auladada = " ".repeat(espacofaltandoesquerda) + auladada + " ".repeat(espacodireita);
+                } else {
+                    int espaco = (int)(espacofaltando / 2);
+                    auladada = " ".repeat(espaco) + auladada + " ".repeat(espaco);
+                }
+
+            }
+
+            String falta = faltas[i];
+
+            if (falta.length() < 6) {
+                double espacofaltando = (6 - falta.length());
+                if (espacofaltando % 2 != 0){
+                    int espacodireita = (int)((espacofaltando / 2) + 1);
+                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
+                    falta = " ".repeat(espacofaltandoesquerda) + falta + " ".repeat(espacodireita);
+                } else {
+                    int espaco = (int)(espacofaltando / 2);
+                    falta = " ".repeat(espaco) + falta + " ".repeat(espaco);
+                }
+
+            }
+
+            String frequencia = frequencias[i];
+
+            if (frequencia.length() < 6) {
+                double espacofaltando = (6 - frequencia.length());
+                if (espacofaltando % 2 != 0){
+                    int espacodireita = (int)((espacofaltando / 2) + 1);
+                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
+                    frequencia = " ".repeat(espacofaltandoesquerda) + frequencia + " ".repeat(espacodireita);
+                } else {
+                    int espaco = (int)(espacofaltando / 2);
+                    frequencia = " ".repeat(espaco) + frequencia + "  ".repeat(espaco);
+                }
+
+            }
 
             System.out.printf("\n%s - %s%s", posicao, nome, rm);
-            System.out.printf(" | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s ", mencaoartes, mencaoaps, mencaobd, mencaodesign, mencaoeducacaofisica, mencaofundamentos, mencaofisica, mencaohistoria, mencaoingles, mencaoportugues, mencaomatematica, mencaopweb, mencaoquimica, mencaotpa);
-            System.out.printf("| %s | %s %s %s |", resultado, auladada, falta, frequencia);
+            System.out.printf("| %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s ", mencaoartes, mencaoaps, mencaobd, mencaodesign, mencaoeducacaofisica, mencaofundamentos, mencaofisica, mencaohistoria, mencaoingles, mencaoportugues, mencaomatematica, mencaopweb, mencaoquimica, mencaotpa);
+            System.out.printf("| %s | %s | %s | %s |", resultado, auladada, falta, frequencia);
         }
 
         sc.close();
-
 
     }
 }
