@@ -1,8 +1,8 @@
 import java.util.Scanner;
-import java.util.function.DoubleToIntFunction;
 
 public class FazerLista {
-    public void fazerlista() {
+
+    public static void fazerlista() {
         Scanner sc = new Scanner(System.in);
 
         //Dados
@@ -31,14 +31,13 @@ public class FazerLista {
         String[] frequencias = listafrequencias.split("  ");
 
         for (int i = 0; i != 41; i++) {
-            String posicao = Integer.toString(i + 1);
 
+            String posicao = Integer.toString(i + 1);
             if (posicao.length() < 2) {
                 posicao = "0".repeat(2 - posicao.length()) + posicao;
             }
 
             String nome = nomes[i];
-
             nome = nome + " ".repeat(40 - nome.length());
 
             String rm = rms[i];
@@ -46,123 +45,38 @@ public class FazerLista {
 
             String mencao = mencoes[i];
             String[] materias = mencao.split(" ");
-            int j = 0;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoartes = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoaps = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaobd = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaodesign = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoeducacaofisica = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaofundamentos = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaofisica = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaohistoria = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoingles = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoportugues = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaomatematica = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaopweb = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaoquimica = materias[j];
-            j++;
-
-            materias[j] = materias[j] + " ".repeat(2 - materias[j].length());
-            String mencaotpa = materias[j];
+            String mencaoartes = espacamentodasmencoes(materias[0]);
+            String mencaoaps = espacamentodasmencoes(materias[1]);
+            String mencaobd = espacamentodasmencoes(materias[2]);
+            String mencaodesign = espacamentodasmencoes(materias[3]);
+            String mencaoeducacaofisica = espacamentodasmencoes(materias[4]);
+            String mencaofundamentos = espacamentodasmencoes(materias[5]);
+            String mencaofisica = espacamentodasmencoes(materias[6]);
+            String mencaohistoria = espacamentodasmencoes(materias[7]);
+            String mencaoingles = espacamentodasmencoes(materias[8]);
+            String mencaoportugues = espacamentodasmencoes(materias[9]);
+            String mencaomatematica = espacamentodasmencoes(materias[10]);
+            String mencaopweb = espacamentodasmencoes(materias[11]);
+            String mencaoquimica = espacamentodasmencoes(materias[12]);
+            String mencaotpa = espacamentodasmencoes(materias[13]);
 
 
             String resultado = resultados[i];
-
-            if (resultado.length() < 21) {
-                double espacofaltando = (21 - resultado.length());
-                if (espacofaltando % 2 != 0){
-                    int espacodireita = (int)((espacofaltando / 2) + 1);
-                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
-                    resultado = " ".repeat(espacofaltandoesquerda) + resultado + " ".repeat(espacodireita);
-                } else {
-                    int espaco = (int)(espacofaltando / 2);
-                    resultado = " ".repeat(espaco) + resultado + " ".repeat(espaco);
-                }
-
-            }
+            int espacogeral = 21;
+            resultado = centralizacao(resultado, espacogeral);
 
             String auladada = aulasdadas[i];
-
-            if (auladada.length() < 5) {
-                double espacofaltando = (5 - auladada.length());
-                if (espacofaltando % 2 != 0){
-                    int espacodireita = (int)((espacofaltando / 2) + 1);
-                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
-                    auladada = " ".repeat(espacofaltandoesquerda) + auladada + " ".repeat(espacodireita);
-                } else {
-                    int espaco = (int)(espacofaltando / 2);
-                    auladada = " ".repeat(espaco) + auladada + " ".repeat(espaco);
-                }
-
-            }
+            espacogeral = 5;
+            auladada = centralizacao(auladada, espacogeral);
 
             String falta = faltas[i];
-
-            if (falta.length() < 6) {
-                double espacofaltando = (6 - falta.length());
-                if (espacofaltando % 2 != 0){
-                    int espacodireita = (int)((espacofaltando / 2) + 1);
-                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
-                    falta = " ".repeat(espacofaltandoesquerda) + falta + " ".repeat(espacodireita);
-                } else {
-                    int espaco = (int)(espacofaltando / 2);
-                    falta = " ".repeat(espaco) + falta + " ".repeat(espaco);
-                }
-
-            }
+            espacogeral = 6;
+            falta = centralizacao(falta, espacogeral);
 
             String frequencia = frequencias[i];
+            espacogeral = 6;
+            frequencia = centralizacao(frequencia, espacogeral);
 
-            if (frequencia.length() < 6) {
-                double espacofaltando = (6 - frequencia.length());
-                if (espacofaltando % 2 != 0){
-                    int espacodireita = (int)((espacofaltando / 2) + 1);
-                    int espacofaltandoesquerda = (int)(espacofaltando / 2);
-                    frequencia = " ".repeat(espacofaltandoesquerda) + frequencia + " ".repeat(espacodireita);
-                } else {
-                    int espaco = (int)(espacofaltando / 2);
-                    frequencia = " ".repeat(espaco) + frequencia + "  ".repeat(espaco);
-                }
-
-            }
 
             System.out.printf("\n%s - %s%s", posicao, nome, rm);
             System.out.printf("| %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s | %2s ", mencaoartes, mencaoaps, mencaobd, mencaodesign, mencaoeducacaofisica, mencaofundamentos, mencaofisica, mencaohistoria, mencaoingles, mencaoportugues, mencaomatematica, mencaopweb, mencaoquimica, mencaotpa);
@@ -172,4 +86,25 @@ public class FazerLista {
         sc.close();
 
     }
+
+    public static String espacamentodasmencoes(String materia) {
+        materia = materia + " ".repeat(2 - materia.length());
+        return materia;
+    }
+
+    public static String centralizacao(String dado, int qtdespaco){
+        if (dado.length() < qtdespaco) {
+            double espacofaltando = (qtdespaco - dado.length());
+            if (espacofaltando % 2 != 0){
+                int espacodireita = (int)((espacofaltando / 2) + 1);
+                int espacoesquerda = (int)(espacofaltando / 2);
+                dado = " ".repeat(espacoesquerda) + dado + " ".repeat(espacodireita);
+            } else {
+                int espacogeral = (int)(espacofaltando / 2);
+                dado = " ".repeat(espacogeral) + dado + " ".repeat(espacogeral);
+            }
+        }
+        return dado;
+    }
+
 }
