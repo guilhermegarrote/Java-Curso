@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23e08f8d-6c6c-41ca-bc70-b1c2ab630b22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/aula24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula24/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/aula25.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula25/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/aula26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula26/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/aula27.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula27/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/aula34.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula34/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/aula37.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula37/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/aula38.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula38/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/aula44.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula44/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/aula49.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula49/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula54/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula54/aula54.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula54/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula57/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula57/aula57.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula57/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula58/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula58/aula58.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula58/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula60/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula60/aula60.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula63/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula63/aula63.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula66/aula66.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula70/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula70/aula70.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula75/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula75/aula75.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula88/aula88.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula89/aula89.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula95/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula95/aula95.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula96/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula96/aula96.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula98/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula98/aula98.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/curso_programacao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/curso_programacao/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/exercicio1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio10/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio10/exercicio10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio10/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio11/exercicio11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio11/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio12/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio12/exercicio12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio13/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio13/exercicio13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio14/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio14/exercicio14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio15/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio15/exercicio15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio16/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio16/exercicio16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio17/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio17/exercicio17.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio18/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio18/exercicio18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio19/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio19/exercicio19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/exercicio2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio20/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio20/exercicio20.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio21/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio21/exercicio21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio22/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio22/exercicio22.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio23/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio23/exercicio23.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio24/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio24/exercicio24.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio25/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio25/exercicio25.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio26/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio26/exercicio26.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio27/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio27/exercicio27.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio28/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio28/exercicio28.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio29/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio29/exercicio29.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/exercicio3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/exercicio4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio4/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio5/exercicio5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio5/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio6/exercicio6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio6/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio7/exercicio7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio7/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio8/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio8/exercicio8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio8/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio9/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio9/exercicio9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio9/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="13425" />
+    <option name="idleThresholdMs" value="10800000" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2QTvquEny2cYcchWvgLwdWNc39A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "zulu-17",
+    "last_directory_selection": "C:/Users/SAMSUNG/Documents/MeusProjetos/Java/Curso/exercicio29/src/entities",
+    "last_opened_file_path": "C:/Users/SAMSUNG/Documents/GitHub/Java/Curso/Aulas",
+    "onboarding.tips.debug.path": "C:/Users/SAMSUNG/Documents/MeusProjetos/Curso-de-java/Curso/aula66/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SAMSUNG\Documents\MeusProjetos\Curso-de-java\Curso\aula75\src" />
+      <recent name="C:\Users\SAMSUNG\Documents\MeusProjetos\Curso-de-java\Curso" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="aula95" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="aula96" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exercicio30" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="exercicio24" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="exercicio29" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="aula98" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="aula70" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="aula63" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="exercicio12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="exercicio13" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23e08f8d-6c6c-41ca-bc70-b1c2ab630b22" name="Changes" comment="" />
+      <created>1685390580013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685390580013</updated>
+    </task>
+    <servers />
+  </component>
+</project>
